@@ -25,9 +25,9 @@ Let's fix this to avoid anyone (accidentally) bypassing verification.
 
    > 🪧 **Note:** To keep the lesson simple, we are only checking the coverage workflow. Feel free to experiment though!
 
-   <img width="300" alt="target branch settings" src="../images/branch-protection-target-settings.png" />
+   <img width="300" alt="target branch settings" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/branch-protection-target-settings.png?raw=true" />
 
-   <img width="300" alt="required status checks" src="../images/required-status-checks.png" />
+   <img width="300" alt="required status checks" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/required-status-checks.png?raw=true" />
 
 1. Click **Create**.
 
@@ -35,7 +35,7 @@ Let's fix this to avoid anyone (accidentally) bypassing verification.
 
 1. Scroll to the bottom to find failed workflows and the **Merge** button now disabled! Nice! 🥰
 
-   <img width="500" alt="failed tests and disabled merge button" src="../images/failed-tests-disabled-merge.png" />
+   <img width="500" alt="failed tests and disabled merge button" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/failed-tests-disabled-merge.png?raw=true" />
 
 > [!TIP]
 > Interested to learn more ways to prepare your project for collaboration? Check out the [Introduction to Repository Management](https://github.com/skills/introduction-to-repository-management) exercise next!
@@ -132,6 +132,6 @@ Let's add some more tests to increase coverage.
 
 1. Click the **Merge** button.
 
-   <img width="500" alt="image" src="../images/merge-button-active.png" />
+   <img width="500" alt="image" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/merge-button-active.png?raw=true" />
 
 1. With full coverage, all tests passing, and the pull request merged, Mona will share a final review. Congrats, you are all done!

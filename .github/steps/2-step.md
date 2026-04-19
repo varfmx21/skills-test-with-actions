@@ -4,7 +4,7 @@ The best way to add automation to your project's repository is with a GitHub Act
 
 ### What are the parts of workflow?
 
-![An illustration with a left half and a right half. On the left: illustration of how GitHub Actions terms are encapsulated. At the highest level: workflows and event triggers. Inside workflows: jobs and definition of the build environment. Inside jobs: steps. Inside steps: a call to an action. On the right: the evaluated sequence: workflow, job, step, action.](../images/github-actions-workflow-diagram.png)
+![An illustration with a left half and a right half. On the left: illustration of how GitHub Actions terms are encapsulated. At the highest level: workflows and event triggers. Inside workflows: jobs and definition of the build environment. Inside jobs: steps. Inside steps: a call to an action. On the right: the evaluated sequence: workflow, job, step, action.](https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/github-actions-workflow-diagram.png?raw=true)
 
 - **Workflow**: A unit of automation from start to finish. It begins when the trigger (`on`) matches an activity in the repository. It consists of 1 or more jobs.
 
@@ -26,15 +26,15 @@ You can explore all of the configuration options in the [GitHub Actions Docs](ht
 
 1. In the left navigation, above list of workflows, click the **New workflow** button.
 
-   <img width="250" alt="image" src="../images/new-workflow-button.png" />
+   <img width="250" alt="image" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/new-workflow-button.png?raw=true" />
 
 1. Enter `python` into the search box and click the **Enter** button.
 
-   <img width="300" alt="search box with 'python' value" src="../images/python-search-box.png" />
+   <img width="300" alt="search box with 'python' value" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/python-search-box.png?raw=true" />
 
 1. Find the **Python package** workflow and click the **Configure** button to open a file editor with a pre-made workflow.
 
-   <img width="250" alt="image" src="../images/python-package-configure.png" />
+   <img width="250" alt="image" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/python-package-configure.png?raw=true" />
 
 1. Around line 6, simplify the `on` trigger. Remove the `push` trigger and keep the `pull_request` trigger.
 
@@ -69,7 +69,7 @@ Finished workflow file: `.github/workflows/python-package.yml.example`
 
 1. Check the status bar for a pending update. Click it to pull your recently committed workflow.
 
-   <img width="130" alt="image" src="../images/sync-changes-button.png" />
+   <img width="130" alt="image" src="https://github.com/varfmx21/skills-test-with-actions/blob/main/.github/images/sync-changes-button.png?raw=true" />
 
 1. In the left navigation, select the **Explorer** tab to show the project files.
 
